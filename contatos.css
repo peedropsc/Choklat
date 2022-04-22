@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins, sans-serif;
+}
+
+.bg {
+    z-index: -1;
+    position: absolute;
+}
+
+header {
+    background: #34170cf1;
+    width: 100%;
+    height: 10vh;
+    position: relative;
+}
+
+img.logo {
+    position: absolute;
+    margin-left: 1%;
+    top: -15%;
+}
+
+table {
+    position: absolute;
+    margin-left: 68%;
+    margin-top: 1.3%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: poppins, sans-serif;
+    transition: 0.5s;
+    font-size: 100%;
+}
+
+a:hover {
+    font-size: 120%;
+}
+
+span {
+    opacity: 0%;
+}
+
+.bag {
+    position: absolute;
+    color: white;
+    margin-left: 95%;
+    margin-top: 0.9%;
+    transition: 0.5s;
+    width: 3%;
+}
+
+.bag:hover {
+    width: 3.5%;
+}
+
+.titulo {
+    font-size: 150%;
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 63%;
+    text-align: center;
+    width: 25%;
+}
+
+.subtitulo {
+    position: absolute;
+    margin-top: 11%;
+    margin-left: 58%;
+    text-align: center;
+    width: 35%;
+}
+
+.contatos {
+    border: 1px solid #34170c;
+    padding: 20px;
+    border-radius: 30px;
+
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 63%;
+    text-align: center;
+
+}
+
+.formulario {
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 23%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: #dfb593e3;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px white;
+    border-radius: 10px;
+
+    text-align: center;
+}
+
+.formulario .box {
+    position: relative;
+}
+
+.formulario .box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: transparent;
+}
+
+.formulario .box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: black;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.formulario .box input:focus ~ label,
+.formulario .box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: white;
+  font-size: 12px;
+}
+
+.btn{
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 15px;
+}
+
+.btn:hover{
+    background: rgba(255, 255, 255, 0.212);
+}
